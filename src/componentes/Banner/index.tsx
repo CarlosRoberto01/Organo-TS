@@ -6,11 +6,11 @@ interface BannerProps {
     textoAlternativo?: string
 }
 
-export const Banner = ({enderecoImagem,textoAlternativo } :BannerProps) => {
+export const Banner = ({ enderecoImagem, textoAlternativo }: BannerProps) => {
     // JSX
     return (
         <header className="banner">
-            <img src={enderecoImagem} alt={textoAlternativo}/>
+            <img src={enderecoImagem} alt={textoAlternativo} />
         </header>
     )
 }
